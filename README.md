@@ -1,11 +1,26 @@
-# 🌐 FAEYZA MASTER VAULT (GLOBAL TECH & SECOND BRAIN)
+# 🌐 FAEYZA MASTER VAULT (GLOBAL TECH & LIFELONG SECOND BRAIN)
 
 > **Single Source of Truth** for AI Multi-Agent Architectures, Self-Hosted Homelab Stack, Automation Workflows, and Lifelong Projects.  
-> *Seamlessly integrated with Notion, Obsidian, GitHub, and ClickUp.*
+> *Seamlessly integrated with Notion, Obsidian, GitHub, ClickUp, Hugging Face, Docker, Raindrop, and Cloudflare Zero Trust.*
 
 ---
 
-## 🤖 1. AI Multi-Agent & Autonomous Frameworks
+## 🏛️ 1. Unified Lifelong Tech Stack Ecosystem
+
+| Layer / Platform | Core Function | Integration Role |
+| :--- | :--- | :--- |
+| **Notion** | Executive Master Vault & Visual Second Brain | Parent workspace, documentation, interactive dashboards, checklists. |
+| **Obsidian** | Offline-First Markdown Knowledge Base | Fast local search, daily logbook, markdown linking on local PCs. |
+| **GitHub** (`ariffend1`) | Source Code, Script Vault & Star Directory | Repositories, custom coding agent tools, starred reference lists. |
+| **ClickUp** | Task Operations & Project Workflows | Daily task execution, sprint boards, automated status tracking. |
+| **Hugging Face** | AI Models, LoRA & Dataset Hub | Model weight storage (GGUF/Safetensors), spaces, voice/video datasets. |
+| **Docker Hub / GHCR** | Container Image & Stack Registry | Pre-configured docker compose stacks for instant zero-config deployments. |
+| **Raindrop.io** | Universal AI Web Bookmarking | Bookmark archive for TikTok, YouTube, articles with auto-tagging. |
+| **Cloudflare** | Zero Trust, Tunnels & Secure Edge | Safe remote access to homelab/dashboard without open firewall ports. |
+
+---
+
+## 🤖 2. AI Multi-Agent & Autonomous Frameworks
 
 | Repository | Focus & Description | Category |
 | :--- | :--- | :--- |
@@ -19,7 +34,7 @@
 
 ---
 
-## 🛠️ 2. Server Monitoring & Self-Hosted Homelab (TikTok Reference)
+## 🛠️ 3. Server Monitoring & Self-Hosted Homelab (TikTok Reference)
 
 | Tool | Core Capability | Focus |
 | :--- | :--- | :--- |
@@ -34,7 +49,7 @@
 
 ---
 
-## ⚡ 3. Automation, APIs & Workflows
+## ⚡ 4. Automation, APIs & Workflows
 
 | Repository | Description |
 | :--- | :--- |
@@ -44,31 +59,38 @@
 
 ---
 
-## 🔄 4. Connected Ecosystem Architecture
+## 🔄 5. Master Architecture Diagram
 
 ```
-                  ┌───────────────────────────────┐
-                  │   MUHAMMAD AGUS ARIFFENDI     │
-                  │         (Mass Boss)           │
-                  └──────────────┬────────────────┘
-                                 │
-                 ┌───────────────┴───────────────┐
-                 │    R7 AI MASTER ORCHESTRATOR  │
-                 └───────────────┬───────────────┘
-                                 │
-     ┌───────────────────────────┼───────────────────────────┐
-     ▼                           ▼                           ▼
-┌──────────────┐          ┌──────────────┐          ┌──────────────┐
-│    NOTION    │ ◄──────► │   OBSIDIAN   │ ◄──────► │    GITHUB    │
-│ Master Vault │          │ Local Vault  │          │ Master Vault │
-└──────────────┘          └──────────────┘          └──────────────┘
-     ▲                           ▲                           ▲
-     └───────────────────────────┼───────────────────────────┘
-                                 ▼
-                          ┌──────────────┐
-                          │   CLICKUP    │
-                          │   Task Ops   │
-                          └──────────────┘
+                              ┌───────────────────────────────┐
+                              │   MUHAMMAD AGUS ARIFFENDI     │
+                              │         (Mass Boss)           │
+                              └──────────────┬────────────────┘
+                                             │
+                             ┌───────────────┴───────────────┐
+                             │    R7 AI MASTER ORCHESTRATOR  │
+                             └───────────────┬───────────────┘
+                                             │
+      ┌──────────────────────┬───────────────┼───────────────┬──────────────────────┐
+      ▼                      ▼               ▼               ▼                      ▼
+┌──────────────┐      ┌──────────────┐┌──────────────┐┌──────────────┐      ┌──────────────┐
+│    NOTION    │      │   OBSIDIAN   ││    GITHUB    ││   CLICKUP    │      │ HUGGING FACE │
+│ Master Vault │ ◄──► │ Local Brain  ││ Master Repo  ││ Daily Ops    │ ◄──► │ AI Model Hub │
+└──────────────┘      └──────────────┘└──────────────┘└──────────────┘      └──────────────┘
+      ▲                      ▲               ▲               ▲                      ▲
+      └──────────────────────┴───────────────┼───────────────┴──────────────────────┘
+                                             ▼
+                             ┌───────────────────────────────┐
+                             │    CLOUDFLARE ZERO TRUST      │
+                             │   (Tunnels & Edge Security)   │
+                             └───────────────┬───────────────┘
+                                             │
+                                ┌────────────┴────────────┐
+                                ▼                         ▼
+                         ┌──────────────┐          ┌──────────────┐
+                         │ RAINDROP.IO  │          │ DOCKER / GHCR│
+                         │ Bookmarking  │          │ Containers   │
+                         └──────────────┘          └──────────────┘
 ```
 
 ---
