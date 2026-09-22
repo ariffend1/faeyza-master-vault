@@ -1,22 +1,23 @@
 # 🌐 FAEYZA MASTER VAULT (GLOBAL TECH & LIFELONG SECOND BRAIN)
 
 > **Single Source of Truth** for AI Multi-Agent Architectures, Self-Hosted Homelab Stack, Automation Workflows, and Lifelong Projects.  
-> *Seamlessly integrated with Notion, Obsidian, GitHub, ClickUp, Hugging Face, Docker, Raindrop, and Cloudflare Zero Trust.*
+> *Seamlessly integrated across 9 Core Pillars: Notion, Obsidian, GitHub, ClickUp, Readwise/Omnivore, Hugging Face, Docker, Raindrop, and Cloudflare Zero Trust.*
 
 ---
 
-## 🏛️ 1. Unified Lifelong Tech Stack Ecosystem
+## 🏛️ 1. Unified 9-Pillar Lifelong Tech Stack Ecosystem
 
 | Layer / Platform | Core Function | Integration Role |
 | :--- | :--- | :--- |
-| **Notion** | Executive Master Vault & Visual Second Brain | Parent workspace, documentation, interactive dashboards, checklists. |
-| **Obsidian** | Offline-First Markdown Knowledge Base | Fast local search, daily logbook, markdown linking on local PCs. |
-| **GitHub** (`ariffend1`) | Source Code, Script Vault & Star Directory | Repositories, custom coding agent tools, starred reference lists. |
-| **ClickUp** | Task Operations & Project Workflows | Daily task execution, sprint boards, automated status tracking. |
-| **Hugging Face** | AI Models, LoRA & Dataset Hub | Model weight storage (GGUF/Safetensors), spaces, voice/video datasets. |
-| **Docker Hub / GHCR** | Container Image & Stack Registry | Pre-configured docker compose stacks for instant zero-config deployments. |
-| **Raindrop.io** | Universal AI Web Bookmarking | Bookmark archive for TikTok, YouTube, articles with auto-tagging. |
-| **Cloudflare** | Zero Trust, Tunnels & Secure Edge | Safe remote access to homelab/dashboard without open firewall ports. |
+| **1. Notion** | Executive Master Vault & Visual Second Brain | Parent workspace, documentation, interactive dashboards, checklists. |
+| **2. Obsidian** | Offline-First Markdown Knowledge Base | Fast local search, daily logbook, markdown linking on local PCs. |
+| **3. GitHub** (`ariffend1`) | Source Code, Script Vault & Star Directory | Repositories, custom coding agent tools, starred reference lists. |
+| **4. ClickUp** | Task Operations & Project Workflows | Daily task execution, sprint boards, automated status tracking. |
+| **5. Readwise / Omnivore** | Deep Knowledge & Highlight Ingestion | Auto-capture highlights from Twitter/X threads, technical PDFs, & articles to Notion/Obsidian. |
+| **6. Hugging Face** | AI Models, LoRA & Dataset Hub | Model weight storage (GGUF/Safetensors), spaces, voice/video datasets. |
+| **7. Docker Hub / GHCR** | Container Image & Stack Registry | Pre-configured docker compose stacks for instant zero-config deployments. |
+| **8. Raindrop.io** | Universal AI Web Bookmarking | Bookmark archive for TikTok, YouTube, articles with auto-tagging. |
+| **9. Cloudflare** | Zero Trust, Tunnels & Secure Edge | Safe remote access to homelab/dashboard without open firewall ports. |
 
 ---
 
@@ -79,18 +80,19 @@
 └──────────────┘      └──────────────┘└──────────────┘└──────────────┘      └──────────────┘
       ▲                      ▲               ▲               ▲                      ▲
       └──────────────────────┴───────────────┼───────────────┴──────────────────────┘
-                                             ▼
-                             ┌───────────────────────────────┐
-                             │    CLOUDFLARE ZERO TRUST      │
-                             │   (Tunnels & Edge Security)   │
-                             └───────────────┬───────────────┘
                                              │
-                                ┌────────────┴────────────┐
-                                ▼                         ▼
-                         ┌──────────────┐          ┌──────────────┐
-                         │ RAINDROP.IO  │          │ DOCKER / GHCR│
-                         │ Bookmarking  │          │ Containers   │
-                         └──────────────┘          └──────────────┘
+                        ┌────────────────────┴────────────────────┐
+                        ▼                                         ▼
+         ┌───────────────────────────────┐         ┌───────────────────────────────┐
+         │   READWISE / OMNIVORE / POCKET│         │    CLOUDFLARE ZERO TRUST      │
+         │   (Knowledge Ingestion & PDF) │         │   (Tunnels & Edge Security)   │
+         └──────────────┬────────────────┘         └──────────────┬────────────────┘
+                        │                                         │
+                        ▼                                         ▼
+                 ┌──────────────┐                          ┌──────────────┐
+                 │ RAINDROP.IO  │                          │ DOCKER / GHCR│
+                 │ Bookmarking  │                          │ Containers   │
+                 └──────────────┘                          └──────────────┘
 ```
 
 ---
